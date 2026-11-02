@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- [#36](https://github.com/tobiaswaelde/homeconnect-mqtt-bridge/pull/36) [`d1c3d1e`](https://github.com/tobiaswaelde/homeconnect-mqtt-bridge/commit/d1c3d1e5fb4a95601bb02948cfc6207f0c45d024) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update stable dependencies and security fixes, and move development, CI, and application images to Node.js 26 LTS. Application container runtimes use Node.js 26; published library and VS Code host compatibility is preserved. TypeScript 7 builds use the TypeScript 6 compatibility API for lint and test tooling.
+
 ## 0.2.0
 
 ### Minor Changes
