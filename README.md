@@ -57,3 +57,7 @@ mosquitto_sub -h mqtt.example.net -t 'home/home-connect/kitchen/bridge/appliance
 - [MQTT contract](https://tobiaswaelde.github.io/homeconnect-mqtt-bridge/mqtt)
 - [Docker deployment](https://tobiaswaelde.github.io/homeconnect-mqtt-bridge/deployment)
 - [WLED MQTT Bridge for local LED controllers](https://tobiaswaelde.github.io/wled-mqtt-bridge/)
+
+## Development toolchain
+
+Use Node.js 26.13.0 LTS and the package manager pinned in `package.json`. Node-based application runtimes require Node.js 26. Builds use TypeScript 7; ESLint and compiler-API consumers use the TypeScript 6 compatibility package. Dependency overrides, where present, pin security fixes for transitive packages; validate tests and documentation builds when changing them.
