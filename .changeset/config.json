@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "tobiaswaelde/homeconnect-mqtt-bridge"
+      "repo": "open-mqtt-bridges/homeconnect"
     }
   ],
   "commit": false,

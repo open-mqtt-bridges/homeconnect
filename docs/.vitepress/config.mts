@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Home Connect MQTT Bridge',
   description: 'Reliable MQTT integration for Home Connect appliances.',
-  base: '/homeconnect-mqtt-bridge/',
+  base: '/homeconnect/',
   cleanUrls: true,
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/homeconnect-mqtt-bridge/favicon.svg', type: 'image/svg+xml' }]],
+  head: [['link', { rel: 'icon', href: '/homeconnect/favicon.svg', type: 'image/svg+xml' }]],
   themeConfig: {
     logo: '/logo.svg',
     nav: [
@@ -25,9 +25,9 @@ export default defineConfig({
       { text: 'Troubleshooting', link: '/troubleshooting' },
     ],
     editLink: {
-      pattern: 'https://github.com/tobiaswaelde/homeconnect-mqtt-bridge/edit/main/docs/:path',
+      pattern: 'https://github.com/open-mqtt-bridges/homeconnect/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/tobiaswaelde/homeconnect-mqtt-bridge' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/open-mqtt-bridges/homeconnect' }],
   },
 });

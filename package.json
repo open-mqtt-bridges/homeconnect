@@ -54,5 +54,14 @@
     "tsx": "^4.23.15",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-eslint": "^8.72.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-mqtt-bridges/homeconnect.git"
+  },
+  "homepage": "https://open-mqtt-bridges.github.io/homeconnect/",
+  "bugs": {
+    "url": "https://github.com/open-mqtt-bridges/homeconnect/issues"
   }
 }
