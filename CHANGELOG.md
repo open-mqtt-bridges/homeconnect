@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- [#44](https://github.com/open-mqtt-bridges/homeconnect/pull/44) [`a7010e4`](https://github.com/open-mqtt-bridges/homeconnect/commit/a7010e4f7a62bc294f0e69b00cd2a6049f78eb86) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update compatible runtime dependencies and remediate vulnerable transitive tooling while preserving the existing MQTT and configuration contracts.
+
 ## 1.0.0
 
 ### Major Changes
