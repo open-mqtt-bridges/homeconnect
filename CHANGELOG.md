@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+### Patch Changes
+
+- Report the released package version in container health responses and reject stale versions in CI.
+
 ## 1.0.1
 
 ### Patch Changes
