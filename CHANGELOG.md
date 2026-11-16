@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+### Patch Changes
+
+- [#48](https://github.com/open-mqtt-bridges/homeconnect/pull/48) [`6224188`](https://github.com/open-mqtt-bridges/homeconnect/commit/6224188ce3707db26a79cafebcaa7ffcafd7198f) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Remove unused npm and its bundled vulnerable dependencies from the runtime container image.
+
 ## 1.0.2
 
 ### Patch Changes
